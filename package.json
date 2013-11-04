@@ -1,0 +1,35 @@
+{
+  "name": "util-middleware",
+  "version": "0.0.1",
+  "description": "Some useful middleware commonly used middleware",
+  "main": "middleware.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tech-Twnel/util-middleware.git"
+  },
+  "keywords": [
+    "Connect",
+    "Express",
+    "Middleware",
+    "Logs",
+    "Status"
+  ],
+  "author": "David Roncancio <david@roncancio.me>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/Tech-Twnel/util-middleware/issues"
+  },
+  "dependencies": {
+    "connect": "~2.11.0",
+    "express": "~3.4.4"
+  },
+  "devDependencies": {
+    "supertest": "~0.8.1"
+  }
+}
