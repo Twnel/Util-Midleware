@@ -5,8 +5,8 @@ var express = require('express')
 var app = express();
 
 app.use(middleware.status());
-app.use(middleware.logger());
 app.use(middleware.allowCrossDomain());
+app.use(middleware.logger(process.env.NODE_ENV));
 app.use(middleware.signResponse('Twnel Inc.'));
 
 http.createServer(app).listen(3000);
