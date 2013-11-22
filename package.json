@@ -1,8 +1,8 @@
 {
   "name": "util-middleware",
-  "version": "0.0.1",
-  "description": "Some useful middleware commonly used middleware",
-  "main": "middleware.js",
+  "version": "0.0.2",
+  "description": "Some useful middleware commonly used by express/connect APIs",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -26,7 +26,6 @@
     "url": "https://github.com/Tech-Twnel/util-middleware/issues"
   },
   "dependencies": {
-    "connect": "~2.11.0",
     "express": "~3.4.4"
   },
   "devDependencies": {
