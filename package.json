@@ -1,6 +1,6 @@
 {
   "name": "util-middleware",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Some useful middleware commonly used by express/connect APIs",
   "main": "index.js",
   "directories": {
